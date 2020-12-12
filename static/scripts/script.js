@@ -351,7 +351,7 @@ function init() {
                     document.getElementById("blockade").remove()
                     timer.startTimer()
                 }, 50)
-            }, 200)
+            }, e * 700)
         },
 
         win: (e) => {

@@ -350,8 +350,8 @@ function init() {
                     clearInterval(huj)
                     document.getElementById("blockade").remove()
                     timer.startTimer()
-                }, 50)
-            }, e * 700)
+                }, e * 700)
+            }, 200)
         },
 
         win: (e) => {

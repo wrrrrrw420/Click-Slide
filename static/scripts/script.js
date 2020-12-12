@@ -406,7 +406,7 @@ function init() {
             let hours = time.split(":")[0]
             let minutes = time.split(":")[1]
             let seconds = time.split(":")[2]
-            console.log(gameTime)
+            
             document.getElementById("timer").innerHTML = `
             <img class="number" src="gfx/c${hours[0]}.gif">
             <img class="number" src="gfx/c${hours[1]}.gif">
@@ -448,7 +448,7 @@ function init() {
 
 
                 gameTime = hours + ":" + minutes + ":" + seconds + "." + miliseconds
-                console.log(gameTime)
+             
                 document.getElementById("timer").innerHTML = `
             <img class="number" src="gfx/c${hours[0]}.gif">
             <img class="number" src="gfx/c${hours[1]}.gif">

@@ -438,7 +438,7 @@ function init() {
                 hours = (hours < 10) ? "0" + hours : hours
                 minutes = (minutes < 10) ? "0" + minutes : minutes
                 seconds = (seconds < 10) ? "0" + seconds : seconds
-                miliseconds = (miliseconds < 100 && miliseconds > 10) ? "0" + miliseconds : miliseconds
+                miliseconds = (miliseconds < 100 && miliseconds >= 10) ? "0" + miliseconds : miliseconds
                 miliseconds = (miliseconds < 10) ? "00" + miliseconds : miliseconds
 
                 hours = hours.toString()
